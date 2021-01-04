@@ -152,7 +152,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <th>Email</th>
             <th>Password</th>
             <th>Status</th>
-            <th></th>
+            <!-- <th></th> -->
           </tr>
           </thead>
           <tbody>
@@ -160,14 +160,20 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <td>Admin</td>
             <td>admin@mplogistik.co.id</td>
             <td>qwerty123</td>
-            <td>Admin</td>
-              <div class="dropdown-menu" role="menu">
-              <a href="#" class="dropdown-item">Edit</a>
-              <a href="#" class="dropdown-item">Delete</a>
-              <div class="dropdown-divider"></div>
-              <a href="#" class="dropdown-item">View calendar</a>
-          <div class="card-tools"><i class="nav-icon fas fa-ellipsis-v"></i>
-          </div><i class="nav-icon fas fa-ellipsis-v"></i>
+            <td>Admin
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
+                  <i class="fas fa-bars"></i>
+                </button>
+                <div class="dropdown-menu" role="menu" style="">
+                  <a href="#" class="dropdown-item">Edit</a>
+                  <a href="#" class="dropdown-item">Delete</a>
+                  
+                </div>
+              </div>
+            </td>
+          <!-- <div class="card-tools"><i class="nav-icon fas fa-ellipsis-v"></i>
+          </div><i class="nav-icon fas fa-ellipsis-v"></i> -->
           </tr>
           <tr>
             <td>User01</td>
@@ -175,7 +181,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </td>
             <td>abcd0</td>
             <td>Admin</td>
-            <td><i class="nav-icon fas fa-ellipsis-v"></i></td>
+            <!-- <td><i class="nav-icon fas fa-ellipsis-v"></i></td> -->
           </tr>
           <tr>
             <td>User02</td>
@@ -183,7 +189,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </td>
             <td>123456</td>
             <td>User</td>
-            <td><i class="nav-icon fas fa-ellipsis-v"></i></td>
+            <!-- <td><i class="nav-icon fas fa-ellipsis-v"></i></td> -->
           </tr>
           <tr>
             <td>User03</td>
@@ -191,14 +197,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </td>
             <td>newAcc</td>
             <td>User</td>
-            <td><i class="nav-icon fas fa-ellipsis-v"></i></td>
+            <!-- <td><i class="nav-icon fas fa-ellipsis-v"></i></td> -->
           </tr>
           <tr>
             <td>User04</td>
             <td>user4@mplogistik.co.id</td>
             <td>Pass0123</td>
             <td>User</td>
-            <td><i class="nav-icon fas fa-ellipsis-v"></i></td>
+            <!-- <td><i class="nav-icon fas fa-ellipsis-v"></i></td> -->
           </tr>
           </tbody>
           <tfoot>
