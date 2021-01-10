@@ -110,9 +110,31 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <div class="content-wrapper">
     <div class="card">
       <div class="card-header">
-        <h3 class="card-title">Sea Freight</h3>
-        <a href="Addnewseafreight.html" button type="button" class="btn btn-danger btn-xs ml-1 btn-lg active">
-          <i class="fas fa-plus"></i> ADD NEW </a>
+        <h3 class="card-title">Add Air Freight Rates</h3>
+        </div>
+        <div class="card-body">
+            <form>
+            <table>
+            <thead>
+            <tr>
+              <th>Origin</th>
+              <th>Destination</th>
+              <th>Estimate Days</th>
+              <th>Price</th>
+            </tr>
+        </thead>
+              <td> <input type="input" class="form-control" id="exampleInputEmail1" placeholder="Origin">
+              </td>
+              <td> <input type="input" class="form-control" id="exampleInputEmail1" placeholder="Destination">
+              </td>
+              <td> <input type="input" class="form-control" id="exampleInputEmail1" placeholder="Estimate Days">
+              </td>
+              <td> <input type="input" class="form-control" id="exampleInputEmail1" placeholder="Price">
+              </td>
+          </table>
+          <p><button type="submit" class="btn-primary btn-sm">SAVE</button></p>
+        </form>
+        </div>
       </div>
       <div class="card-body">
         <table id="example1" class="table table-bordered table-striped">
@@ -121,70 +143,60 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <th>Origin</th>
             <th>Destination</th>
             <th>Estimate Days</th>
-            <th>Container 20'</th>
-            <th>Container 40'</th>
-            <th>Per M3/Ton</th>
+            <th>Price</th>
           </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Surabaya</td>
+              <td>Jakarta</td>
               <td>Belawan</td>
-              <td>8</td>
-              <td>17.000.000</td>
-              <td>30.600.000</td>
-              <td>944.444
+              <td>5</td>
+              <td>35.0000
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm dropdown-toggle btn-lg active" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
                     <i class="fas fa-bars"></i>
                   </button>
                   <div class="dropdown-menu" role="menu" style="">
-                    <a href="Editseafreight.html" class="dropdown-item">Edit</a>
+                    <a href="Editairfreight.html" class="dropdown-item">Edit</a>
                     <a href="#" class="dropdown-item">Delete</a>
                   </div>
                 </div>
               </td>
-            </tr>
-            <tr>
-              <td>Surabaya</td>
-              <td>Batu Licin</td>
-              <td>8</td>
-              <td>17.000.000</td>
-              <td>30.600.000</td>
-              <td>944.444
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm dropdown-toggle btn-lg active" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
-                    <i class="fas fa-bars"></i>
-                  </button>
-                  <div class="dropdown-menu" role="menu" style="">
-                    <a href="Editseafreight.html" class="dropdown-item">Edit</a>
-                    <a href="#" class="dropdown-item">Delete</a>
+              <tr>
+                <td>Jakarta</td>
+                <td>Binjai</td>
+                <td>5</td>
+                <td>30.0000
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm dropdown-toggle btn-lg active" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
+                      <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="dropdown-menu" role="menu" style="">
+                      <a href="Editairfreight.html" class="dropdown-item">Edit</a>
+                      <a href="#" class="dropdown-item">Delete</a>
+                    </div>
                   </div>
-                </div>
-              </td>
+                </td>
             </tr>
             <tr>
               <td>Jakarta</td>
-              <td>Banyuwangi</td>
+              <td>Brastagi</td>
               <td>6</td>
-              <td>12.000.000</td>
-              <td>21.600.000</td>
-              <td>666.667
+              <td>30.0000
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm dropdown-toggle btn-lg active" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
                     <i class="fas fa-bars"></i>
                   </button>
                   <div class="dropdown-menu" role="menu" style="">
-                    <a href="Editseafreight.html" class="dropdown-item">Edit</a>
+                    <a href="Editairfreight.html" class="dropdown-item">Edit</a>
                     <a href="#" class="dropdown-item">Delete</a>
                   </div>
                 </div>
               </td>
-            </tr>
-        </tbody>
-          </tfoot>
-        </table>
-      </div>
+            </tbody>
+            <tfoot>
+            </tfoot>
+          </table>
       <!-- /.card-body -->
     </div>
           <!-- /.col-md-6 -->

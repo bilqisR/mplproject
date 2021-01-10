@@ -32,7 +32,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       </li>
     </ul>
     <li class="nav-item d-none d-sm-inline-block">
-      <h2 class="card-title">Shipment Rates</h2>
+      <h2 class="card-title">Account Management</h2>
     </li>
       <ul class="nav navbar-nav ml-auto navbar-right">
         <li class="nav-item">
@@ -109,79 +109,98 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Edit Account</h3>
+        </div>
+        <div class="card-body">
+            <form>
+
+            <table>
+            <thead>
+            <tr>
+              <th>Username</th>
+              <th>Email</th>
+              <th>Password</th>
+              <th>Status</th>
+            </tr>
+        </thead>
+              <td> <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+              </td>
+              <td> <input type="input" class="form-control" id="exampleInputEmail1" placeholder="Username">
+              </td>
+              <td> <input type="password" class="form-control" id="exampleInputEmail1" placeholder="Password">
+              </td>
+              <td>
+                <select id="inputStatus" class="form-control custom-select">
+                  <option selected disabled>Select one</option>
+                  <option>Admin</option>
+                  <option>User</option>
+                </select>
+              </td>
+          </table>
+          <p><button type="submit" class="btn-primary btn-sm">SAVE</button></p>
+        </form>
+        </div>
+    <div class="card">
       <div class="card-header">
-        <h3 class="card-title">Sea Freight</h3>
-        <a href="Addnewseafreight.html" button type="button" class="btn btn-danger btn-xs ml-1 btn-lg active">
-          <i class="fas fa-plus"></i> ADD NEW </a>
       </div>
       <div class="card-body">
         <table id="example1" class="table table-bordered table-striped">
           <thead>
           <tr>
-            <th>Origin</th>
-            <th>Destination</th>
-            <th>Estimate Days</th>
-            <th>Container 20'</th>
-            <th>Container 40'</th>
-            <th>Per M3/Ton</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Status</th>
+            <!-- <th></th> -->
           </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Surabaya</td>
-              <td>Belawan</td>
-              <td>8</td>
-              <td>17.000.000</td>
-              <td>30.600.000</td>
-              <td>944.444
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm dropdown-toggle btn-lg active" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
-                    <i class="fas fa-bars"></i>
-                  </button>
-                  <div class="dropdown-menu" role="menu" style="">
-                    <a href="Editseafreight.html" class="dropdown-item">Edit</a>
-                    <a href="#" class="dropdown-item">Delete</a>
-                  </div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>Surabaya</td>
-              <td>Batu Licin</td>
-              <td>8</td>
-              <td>17.000.000</td>
-              <td>30.600.000</td>
-              <td>944.444
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm dropdown-toggle btn-lg active" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
-                    <i class="fas fa-bars"></i>
-                  </button>
-                  <div class="dropdown-menu" role="menu" style="">
-                    <a href="Editseafreight.html" class="dropdown-item">Edit</a>
-                    <a href="#" class="dropdown-item">Delete</a>
-                  </div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>Jakarta</td>
-              <td>Banyuwangi</td>
-              <td>6</td>
-              <td>12.000.000</td>
-              <td>21.600.000</td>
-              <td>666.667
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm dropdown-toggle btn-lg active" data-toggle="dropdown" data-offset="-52" aria-expanded="false">
-                    <i class="fas fa-bars"></i>
-                  </button>
-                  <div class="dropdown-menu" role="menu" style="">
-                    <a href="Editseafreight.html" class="dropdown-item">Edit</a>
-                    <a href="#" class="dropdown-item">Delete</a>
-                  </div>
-                </div>
-              </td>
-            </tr>
-        </tbody>
+          <tr>
+            <td>Admin</td>
+            <td>admin@mplogistik.co.id</td>
+            <td>qwerty123</td>
+            <td>Admin
+            </td>
+          </tr>
+          <tr>
+            <td>User01</td>
+            <td>user1@mplogistik.co.id
+            </td>
+            <td>abcd0</td>
+            <td>Admin
+                </td>
+              </div>
+            </div>
+          </tr>
+          <tr>
+            <td>User02</td>
+            <td>user2@mplogistik.co.id
+            </td>
+            <td>123456</td>
+            <td>User</td>
+            </div>
+            </div>
+          </tr>
+          <tr>
+            <td>User03</td>
+            <td>user3@mplogistik.co.id
+            </td>
+            <td>newAcc</td>
+            <td>User</td>
+              </div>
+            </div>
+          </tr>
+          <tr>
+            <td>User04</td>
+            <td>user4@mplogistik.co.id</td>
+            <td>Pass0123</td>
+            <td>User</div>
+              </div>
+            </td>
+          </tr>
+          </tbody>
+          <tfoot>
           </tfoot>
         </table>
       </div>
